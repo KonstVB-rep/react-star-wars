@@ -1,0 +1,12 @@
+:root {
+	--font-size-small: 16px;
+	--font-family-main: sans-serif;
+	--font-weight-bold: 600;
+	--color-white-btn: rgb(255, 255, 255);
+	--color-black-btn: #03110d;
+	--color-blue-btn: #01016e;
+	--color-blue-hover-btn: #2b2bb9;
+	--transition-btn: 0.3s;
+}
+
+/*# sourceMappingURL=main.9d347c2a.css.map*/

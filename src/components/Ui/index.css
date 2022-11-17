@@ -1,0 +1,10 @@
+:root {
+	--font-size-small: 16px;
+	--font-family-main: sans-serif;
+	--font-weight-bold: 600;
+	--color-white-btn: rgb(255, 255, 255);
+	--color-black-btn: #03110d;
+	--color-blue-btn: #162f42;
+	--color-blue-hover-btn: #3434a6;
+	--transition-btn: 0.3s;
+}
