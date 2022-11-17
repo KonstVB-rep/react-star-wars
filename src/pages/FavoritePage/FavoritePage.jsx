@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import PeopleList from "../../components/PeoplePage/PeopleList";
-import { Div } from "./styled";
+import { Div, Paragraph } from "./styled";
 
 const FavoritePage = () => {
   const [people, setPeople] = useState([]);
@@ -16,9 +16,16 @@ const FavoritePage = () => {
   }, []);
 
   return (
-    <Div>
-      <PeopleList people={people} />
-    </Div>
+    <>
+      <h1 className="page__title">FavoritePage</h1>
+      <Div>
+        {people.length ? (
+          <PeopleList people={people} />
+        ) : (
+          <Paragraph>Favorite list is empty</Paragraph>
+        )}
+      </Div>
+    </>
   );
 };
 
