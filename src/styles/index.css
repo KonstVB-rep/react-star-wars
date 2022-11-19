@@ -5,7 +5,7 @@
   --color-yellow: gold;
   --color-light-green: #37b7b7;
   --color-blue: #638ee8;
-  --color-violet: #ae72c2;
+  --color-violet: #6d2386;
   --color-pink: #b24f84;
   
   --spacing-small: 10px;
@@ -25,11 +25,17 @@
   --transition: .3s;
   
   --font-bold: 600;
+  /*Themes*/
+  --theme-light-header: #ca6c6f;
+  --theme-dark-header: #dfe2df  ;
+  --theme-neutral-header: #FFFF00;
+  --theme-default-header: var(--theme-neutral-header);
+  --theme-light-bgimage: url("../../public/images/for-dark-theme.jpg");
+  --theme-dark-bgimage: url("../../public/images/knights-of-ren_2048x1152.jpg");
+  --theme-neutral-bgimage: url("../../public/images/backgroundG.jpg");
+  --theme-default-bgimage: var(--theme-dark-bgimage);
   
-  --theme-default-header: #FFFF00;
-  --theme-default-bgimage: url("../../public/images/star-wars-imperial-3840x2400.jpg");
-  
-  --text-shadow-blue:  0 0 0 var(--color-white), 0 0 10px var(--color-blue);
+  --text-shadow-blue:  0 0 2px var(--color-white), 0 0 2px var(--color-blue);
 }
 
 body {
@@ -41,7 +47,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: fixed var(--color-black) var(--theme-default-bgimage) center/cover no-repeat;
+  background: fixed var(--color-black) var(--theme-default-bgimage) center center/cover no-repeat;
   font-size: var(--font-size-main);
 }
 #root{

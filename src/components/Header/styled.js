@@ -6,6 +6,8 @@ export const HeaderContainer = styled.div`
   align-items: center;
   padding: var(--spacing-small);
   margin-bottom: var(--spacing-large);
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: var(--border-radius-10);
 `;
 
 export const List = styled.ul`
@@ -33,4 +35,12 @@ export const List = styled.ul`
     color: var(--color-violet);
     border-radius: var(--border-radius-5);
   }
+`;
+
+export const Logo = styled.img`
+  width: 60px;
+  height: 60px;
+  margin-right: var(--spacing-small);
+  object-fit: cover;
+  object-position: center center;
 `;
