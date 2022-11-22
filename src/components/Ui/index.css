@@ -7,4 +7,14 @@
 	--color-blue-btn: #162f42;
 	--color-blue-hover-btn: #3434a6;
 	--transition-btn: 0.3s;
+	--border-radius-10: 10px;
+	--color-lifgtgrey: #2d2a2a;
+	--color-yellow: gold;
+	--font-size-main: 16px;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }

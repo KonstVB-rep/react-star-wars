@@ -3,6 +3,7 @@ import PeoplePage from "pages/PeoplePage";
 import NotFoundPage from "pages/NotFoundPage";
 import PersonPage from "../pages/PersonPage";
 import FavoritePage from "../pages/FavoritePage";
+import SearchPage from "../pages/SearchPage";
 
 const routesConfig = [
   {
@@ -27,6 +28,11 @@ const routesConfig = [
   },
   {
     id: 5,
+      path: "/search",
+    element: <SearchPage />,
+  },
+  {
+    id: 6,
     path: "*",
     element: <NotFoundPage />,
   },

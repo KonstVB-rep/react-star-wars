@@ -13,7 +13,7 @@ const props = {
   disabled: false,
   theme: "dark",
 };
-//👇 Each story then reuses that template
+// Each story then reuses that template
 export const Light = Template.bind({});
 
 Light.args = {

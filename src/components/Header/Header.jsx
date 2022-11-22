@@ -36,6 +36,11 @@ const Header = () => {
             People
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/search" strict="false">
+            Search
+          </NavLink>
+        </li>
       </List>
       <Favorite />
     </HeaderContainer>
