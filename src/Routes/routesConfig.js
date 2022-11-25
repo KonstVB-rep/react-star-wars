@@ -4,6 +4,7 @@ import NotFoundPage from "pages/NotFoundPage";
 import PersonPage from "../pages/PersonPage";
 import FavoritePage from "../pages/FavoritePage";
 import SearchPage from "../pages/SearchPage";
+import ErrorMessage from "../components/ErrorMessage";
 
 const routesConfig = [
   {
@@ -35,6 +36,11 @@ const routesConfig = [
     id: 6,
     path: "*",
     element: <NotFoundPage />,
+  },
+  {
+    id: 7,
+    path: "/fail",
+    element: <ErrorMessage />,
   },
 ];
 

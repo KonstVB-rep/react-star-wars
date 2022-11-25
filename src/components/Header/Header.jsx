@@ -37,8 +37,13 @@ const Header = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/search" strict="false">
+          <NavLink to="/search">
             Search
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/fail" >
+            Fail
           </NavLink>
         </li>
       </List>

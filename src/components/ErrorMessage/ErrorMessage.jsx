@@ -1,41 +1,17 @@
 import React from "react";
-import styled from "styled-components";
+import UiVideo from "../Ui/UiVIdeo";
+import videoMP4 from './video/Obi.mp4'
+import {Div} from "./styled";
 
-const Div = styled.div`
-  width: 100%;
-  margin: 100px auto;
-  color: black;
-  text-align: center;
-  font-size: var(--font-size-50);
-  line-height: 1.7;
-  text-shadow: 0 2px 0 var(color-light-green);
-  -webkit-text-stroke-color: var(color-light-green);
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-fill-color: white;
-  border-radius: 20px;
-  padding: 30px;
-
-  &::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: -1;
-  }
-
-  //background-color: rgba(30, 54, 72, 0.53);
-`;
 
 const ErrorMessage = () => {
   return (
     <Div>
-      The cannot display data.
-      <br />
-      Come back when we gix everything{" "}
+      <p>The cannot display data.</p>
+      <p>Come back when we fix everything.</p>.
+      <UiVideo src = {videoMP4} classes = {'video'} playbackRate = {0.7} />
     </Div>
+
   );
 };
 
