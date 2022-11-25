@@ -4,7 +4,7 @@ export const Ul = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   padding: var(--spacing-small);
   color: var(--color-white);
   text-align: center;
