@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b5470af.css",
+    "main.js": "/static/js/main.854b4e75.js",
+    "static/js/787.6711493f.chunk.js": "/static/js/787.6711493f.chunk.js",
+    "static/media/for-dark-theme.jpg": "/static/media/for-dark-theme.bef504bc3a0437d9024c.jpg",
+    "static/media/knights-of-ren_2048x1152.jpg": "/static/media/knights-of-ren_2048x1152.95a29f94b33402381b30.jpg",
+    "static/media/backgroundG.jpg": "/static/media/backgroundG.faf4480bd3f30d06aecc.jpg",
+    "static/media/falcon.jpg": "/static/media/falcon.c1d0a8d1869b3fbdb9ab.jpg",
+    "static/media/Obi.mp4": "/static/media/Obi.e28de09dd7f3200ed57a.mp4",
+    "static/media/dark-side.jpg": "/static/media/dark-side.e0f8cab78e4bdd7db45d.jpg",
+    "static/media/light-side.jpg": "/static/media/light-side.eebc52171cd4ac0278ca.jpg",
+    "static/media/lightsaber.svg": "/static/media/lightsaber.eb7d4cd665426117002814db79fceef4.svg",
+    "static/media/space-station.svg": "/static/media/space-station.7a027c6ec10ba7b5d8c880df5f4e65ea.svg",
+    "static/media/droid.svg": "/static/media/droid.de165dd887badb2bdbe9d97b8e527c6f.svg",
+    "static/media/bookmark.svg": "/static/media/bookmark.4269f93117a828680bb69e933e91ddf8.svg",
+    "static/media/favorite.svg": "/static/media/favorite.4eaeaf77f15e2db98951d78aecee74a4.svg",
+    "static/media/unFavorite.svg": "/static/media/unFavorite.d80685d01d28a231bff746576adec2ba.svg",
+    "static/media/loader-black.svg": "/static/media/loader-black.d8b26e7f62891962963769c4b2e1080a.svg",
+    "static/media/loader-blue.svg": "/static/media/loader-blue.f8fe62e95085a8a83a1ee1a5935bbd6c.svg",
+    "static/media/loader-white.svg": "/static/media/loader-white.39ba74ef2e9a266d53e2afd6601c9b82.svg",
+    "index.html": "/index.html",
+    "static/media/close-rectangle-f-svgrepo-com.svg": "/static/media/close-rectangle-f-svgrepo-com.c0e3114f64da0e0ae9fd14cdc8b12f0c.svg",
+    "static/media/left-arrow.svg": "/static/media/left-arrow.6af99bef3bb5999dc2921785eda24cdd.svg",
+    "main.1b5470af.css.map": "/static/css/main.1b5470af.css.map",
+    "main.854b4e75.js.map": "/static/js/main.854b4e75.js.map",
+    "787.6711493f.chunk.js.map": "/static/js/787.6711493f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b5470af.css",
+    "static/js/main.854b4e75.js"
+  ]
+}
