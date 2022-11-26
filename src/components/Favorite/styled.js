@@ -19,7 +19,4 @@ export const Div = styled.div`
     background: white;
     z-index: 1;
   }
-  & img {
-    filter: drop-shadow(0px 0px 2px var(--color-white));
-  }
 `;

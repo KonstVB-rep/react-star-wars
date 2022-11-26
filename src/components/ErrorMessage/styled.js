@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Div = styled.div`
-  width: 100%;
+  width: 90%;
   margin: 10px auto;
   color: black;
   text-align: center;
@@ -12,7 +12,22 @@ export const Div = styled.div`
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-fill-color: white;
   border-radius: 20px;
-  padding: 30px;
+  padding: var(--spacing-large);
+
+  @media screen and (max-width: 740px){
+    padding: var(--spacing-small);
+    & p{
+      font-size: 36px;
+    }
+  }
+
+  @media screen and (max-width: 480px){
+    padding: var(--spacing-small);
+    
+    & p{
+      font-size: var(--font-size-header);
+    }
+  }
 
   &::after {
     content: "";
@@ -26,13 +41,14 @@ export const Div = styled.div`
   }
 
   & p::selection {
-
     text-shadow: 5px 5px #c71111;
     background-color: #cb63e8;
   }
-
   & .video {
-    margin: 25px 0 0;
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
+    margin: 40px 0 0;
     border-radius: calc(var(--border-radius-10) * 2);
     filter: drop-shadow(-2px -2px 30px white);
   }

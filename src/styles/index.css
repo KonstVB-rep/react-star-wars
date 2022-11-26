@@ -1,5 +1,5 @@
 :root {
-  --color-dark-grey: rgba(3, 17, 13, 0.45);
+  --color-dark-grey: rgba(100, 92, 94, 0.45);
   --color-white: #ffffff;
   --color-black: rgba(0, 0, 0, 0.62);
   --color-yellow: gold;
@@ -46,6 +46,7 @@
 }
 
 body {
+  position: relative;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -90,6 +91,10 @@ ul{list-style: none}
 a{
   text-decoration: none;
 }
+
+/*@media screen and (max-width: 480px){*/
+/*  */
+/*}*/
 
 SCROLL
   /***************************************************/

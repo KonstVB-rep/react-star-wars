@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Div } from "./styled";
 import { useSelector } from "react-redux";
+import FavoriteIcon from "./img/bookmark.svg";
 
 const Favorite = () => {
   const [count, setCount] = useState(0);
@@ -16,7 +17,7 @@ const Favorite = () => {
     <Div>
       <span>{count}</span>
       <Link to="/favorites">
-        <img src="/images/bookmark.svg" alt="Favorite list" />
+        <img src={FavoriteIcon} alt="Favorite list" />
       </Link>
     </Div>
   );

@@ -1,10 +1,13 @@
 import React, { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 
-const UiVideo = ({ src, classes, playbackRate = 1.0 }) => {
+const UiVideo = ({ src, classes, playbackRate = '1.0' }) => {
   const videoRef = useRef(null);
-  useEffect(() => {
+  const setPlayBack = () => {
     videoRef.current.playbackRate = playbackRate;
+  };
+  useEffect(() => {
+    setPlayBack();
   }, []);
 
   return (
@@ -14,7 +17,8 @@ const UiVideo = ({ src, classes, playbackRate = 1.0 }) => {
       autoPlay
       muted
       className={classes}
-      playbackRate={playbackRate}
+      onCanPlay={() => setPlayBack()}
+      // playbackRate={playbackRate}
     >
       <source src={src} />
     </video>

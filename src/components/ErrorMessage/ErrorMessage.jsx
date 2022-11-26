@@ -8,8 +8,8 @@ const ErrorMessage = () => {
   return (
     <Div>
       <p>The cannot display data.</p>
-      <p>Come back when we fix everything.</p>.
-      <UiVideo src = {videoMP4} classes = {'video'} playbackRate = {0.7} />
+      <p>Come back when we fix everything.</p>
+      <UiVideo src = {videoMP4} classes = {'video'} playbackRate = {'0.7'} />
     </Div>
 
   );

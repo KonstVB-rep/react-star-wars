@@ -6,6 +6,8 @@ import {
   removePersonFromFavorite,
   setPersonToFavorite,
 } from "../../store/actions";
+import FavorIcon from './img/favorite.svg'
+import UnFavorIcon from './img/unFavorite.svg'
 
 const PersonPhoto = ({
   personPhoto,
@@ -37,7 +39,7 @@ const PersonPhoto = ({
     <Div>
       {personPhoto && <ImgPerson src={personPhoto} alt={personName} />}
       <FavoriteIcon
-        src={personFavorite ? "/images/unFavorite.svg" : "/images/favorite.svg"}
+        src={personFavorite ? UnFavorIcon : FavorIcon}
         onClick={dispatchFavoritePeople}
         alt="favorite"
       />

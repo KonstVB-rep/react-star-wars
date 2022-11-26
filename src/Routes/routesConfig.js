@@ -29,7 +29,7 @@ const routesConfig = [
   },
   {
     id: 5,
-      path: "/search",
+    path: "/search",
     element: <SearchPage />,
   },
   {
