@@ -13,25 +13,25 @@ const NavMobile = ({showMobileNav,setShowMobileNav}) => {
           <Nav hide={showMobileNav}>
             <List>
               <li>
-                <NavLink to = "/">HomePage</NavLink>
+                <NavLink to = "/react-star-wars/">HomePage</NavLink>
               </li>
               <li>
-                <NavLink to = "/people/?page=1" strict = "false">
+                <NavLink to = "/react-star-wars/people/?page=1" strict = "false">
                   People
                 </NavLink>
               </li>
               <li>
-                <NavLink to = "/search">
+                <NavLink to = "/react-star-wars/search">
                   Search
                 </NavLink>
               </li>
               <li>
-                <NavLink to = "/fail">
+                <NavLink to = "/react-star-wars/fail">
                   Fail
                 </NavLink>
               </li>
               <li>
-                <NavLink to = "/favorites">
+                <NavLink to = "/react-star-wars/favorites">
                   Favorites
                 </NavLink>
               </li>

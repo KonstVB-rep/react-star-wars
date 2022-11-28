@@ -13,6 +13,7 @@ export const Div = styled.div`
   -webkit-text-fill-color: white;
   border-radius: 20px;
   padding: var(--spacing-large);
+  background-color: rgba(0, 0, 0, 0.5);
 
   @media screen and (max-width: 740px){
     padding: var(--spacing-small);
@@ -36,7 +37,6 @@ export const Div = styled.div`
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
   }
 

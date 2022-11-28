@@ -49,18 +49,20 @@ export const List = styled.ul`
       margin: 0;
       border-radius: unset;
       border-bottom: 2px solid var(--color-dark-grey);
-      background-color: #baccc8;
+      background-color: steelblue;
     }
   }
-  
-  & li a.active {
-    border: 2px solid var(--color-violet);
-    color: var(--color-violet);
-    border-radius: var(--border-radius-5);
+
+  & li a:hover {
     @media screen and (max-width: 640px) {
       border-radius: 0;
       color: var(--color-white);
       background-color: var(--color-violet);
+    }
+  }
+  & li a:active {
+    @media screen and (max-width: 640px) {
+     letter-spacing: 5px;
     }
   }
 `;

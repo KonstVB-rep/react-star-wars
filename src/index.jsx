@@ -10,19 +10,17 @@ import "./styles/index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const router = createBrowserRouter([
-  {
-    path: "/*",
-    element: <App />,
-  },
-]);
+const router = createBrowserRouter([{
+  path: "/react-star-wars/*",
+  element: <App />,
+}], {basename: ""});
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
       <ThemeProvider>
-        <RouterProvider router={router} />
+        <RouterProvider router={router}/>
       </ThemeProvider>
     </Provider>
   </React.StrictMode>

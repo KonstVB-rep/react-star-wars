@@ -8,7 +8,7 @@ const PeopleList = ({ people }) => {
     <Ul>
       {people.map(({ id, name, img }) => (
         <Li key={id}>
-          <Link to={`/people/${id}`} className="link">
+          <Link to={`/react-star-wars/people/${id}`} className="link">
             <Img src={img} alt="" />
             <p>{name}</p>
           </Link>

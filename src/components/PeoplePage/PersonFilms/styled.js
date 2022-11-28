@@ -31,7 +31,3 @@ export const Li = styled.li`
   background-color: var(--color-pink);
 `;
 
-// export const SpanPink = styled.span`
-//   background-color: var(--color-pink);
-//   padding: 2px;
-// `;

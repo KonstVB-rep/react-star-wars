@@ -70,5 +70,4 @@ export const Img = styled.img`
   object-fit: cover;
   object-position: center center;
   border-radius: var(--border-radius);
-  //box-shadow: 0 0 2px 2px;
 `;

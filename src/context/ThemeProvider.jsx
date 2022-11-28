@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, {useContext, useEffect, useState} from "react";
 import { changeCssVariables } from "../services/changeCssVariables";
 
 export const THEME_LIGHT = "light";
@@ -8,10 +8,19 @@ export const THEME_NEUTRAL = "neutral";
 const ThemeContext = React.createContext();
 
 export const ThemeProvider = ({ children, ...props }) => {
-  const [theme, setTheme] = useState(null);
+  const [theme, setTheme] = useState('dark');
+
+  useEffect(() => {
+    const themeStorage = localStorage.getItem('theme')
+    if(themeStorage){
+      setTheme(themeStorage);
+      changeCssVariables(themeStorage);
+    }
+  },[])
 
   const change = (name) => {
     setTheme(name);
+    localStorage.setItem('theme', name);
     changeCssVariables(name);
   };
 

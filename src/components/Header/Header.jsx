@@ -10,10 +10,9 @@ import Favorite from "../Favorite";
 import NavMobile from "./NavMobile";
 
 const Header = () => {
-  const [icon, setIcon] = useState(imgNeutralTheme);
+  const [icon, setIcon] = useState(null);
   const [showMobileNav,setShowMobileNav] = useState(false)
   const isTheme = useTheme();
-
   useEffect(() => {
     switch (isTheme.theme) {
       case THEME_LIGHT:
@@ -32,20 +31,20 @@ const Header = () => {
       <img src = {icon} alt = "Logotype theme" />
       <List>
         <li>
-          <NavLink to = "/">HomePage</NavLink>
+          <NavLink to = "/react-star-wars/">HomePage</NavLink>
         </li>
         <li>
-          <NavLink to = "/people/?page=1" strict = "false">
+          <NavLink to = "/react-star-wars/people/?page=1" strict = "false">
             People
           </NavLink>
         </li>
         <li>
-          <NavLink to = "/search">
+          <NavLink to = "/react-star-wars/search">
             Search
           </NavLink>
         </li>
         <li>
-          <NavLink to = "/fail">
+          <NavLink to = "/react-star-wars/fail">
             Fail
           </NavLink>
         </li>

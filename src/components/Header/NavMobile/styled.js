@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const WrapperNav = styled.div`
   
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 0;
   transform: ${ props => props.hide ? 'translateY(0%)' : 'translateY(-110%)'};
   width: 100%;
@@ -70,17 +70,18 @@ export const Button = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     background-color: transparent;
-    gap: 5px;
+    gap: 2px;
     cursor: pointer;
     :hover > span {
       box-sizing: content-box;
-      background-color: #2b2bb9;
+      background-color: steelblue;
       border: 2px solid white;
     }
 
     :active > span {
+      gap: 6px;
       background-color: white;
-      border: 2px solid #2b2bb9;
+      border: 2px solid steelblue;
     }
   }
 

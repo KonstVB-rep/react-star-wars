@@ -18,7 +18,6 @@ const UiVideo = ({ src, classes, playbackRate = '1.0' }) => {
       muted
       className={classes}
       onCanPlay={() => setPlayBack()}
-      // playbackRate={playbackRate}
     >
       <source src={src} />
     </video>

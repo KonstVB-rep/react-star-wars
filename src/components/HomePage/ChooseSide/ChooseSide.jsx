@@ -15,7 +15,6 @@ import { DivContainer, DivItem, DivItemHeader, Img } from "./styled";
 
 const ChooseSideItem = ({ classes, theme, text, img }) => {
   const isTheme = useTheme();
-
   return (
     <DivItem onClick={() => isTheme.change(theme)} className={classes}>
       <DivItemHeader>{text}</DivItemHeader>
