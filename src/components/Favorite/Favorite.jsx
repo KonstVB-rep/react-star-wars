@@ -16,7 +16,7 @@ const Favorite = () => {
   return (
     <Div>
       <span>{count}</span>
-      <Link to="/favorites">
+      <Link to="/react-star-wars/favorites">
         <img src={FavoriteIcon} alt="Favorite list" />
       </Link>
     </Div>
