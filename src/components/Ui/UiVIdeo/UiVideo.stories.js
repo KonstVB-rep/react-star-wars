@@ -1,6 +1,5 @@
 import UiVideo from './UiVideo';
 import video from './video/Obi.mp4';
-import PropTypes from "prop-types";
 
 export default  {
   title: 'Ui-Kit/UiVideo',

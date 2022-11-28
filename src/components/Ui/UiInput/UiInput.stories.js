@@ -1,6 +1,5 @@
 import UiInput from "./UiInput";
 import {useState} from "react";
-import PropTypes from "prop-types";
 
 export default {
   title: "Ui-Kit/UiButton",

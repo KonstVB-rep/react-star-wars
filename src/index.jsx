@@ -11,6 +11,7 @@ import "./styles/index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([{
+  basename:'/react-star-wars/',
   path: "/react-star-wars/*",
   element: <App />,
 }], {basename: ""});
