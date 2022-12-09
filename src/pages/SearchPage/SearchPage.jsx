@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import debounce from "lodash.debounce";
 import { getApiResource } from "utils/network";
-import { API_SEARCH } from ".constants/api";
+import { API_SEARCH } from "constants/api";
 import { withErrorApi } from "hoc/withErrorApi";
 import PropTypes from "prop-types";
 import { getPeopleId, getPeopleImage } from "services/getPeolpeData";
