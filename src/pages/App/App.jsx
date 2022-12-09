@@ -12,7 +12,7 @@ function App() {
        <Header />
        <Routes>
          {routesConfig.map((i) => (
-           <Route key={i.id} path={i.path} element={i.element} strict />
+           <Route key={i.id} path={i.path} element={i.element} />
          ))}
        </Routes>
      </AppContainer>
