@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-star-wars/static/css/main.86a23921.css",
-    "main.js": "/react-star-wars/static/js/main.b2e3f662.js",
+    "main.js": "/react-star-wars/static/js/main.6b991eb9.js",
     "static/js/787.6711493f.chunk.js": "/react-star-wars/static/js/787.6711493f.chunk.js",
     "static/media/for-dark-theme.jpg": "/react-star-wars/static/media/for-dark-theme.bef504bc3a0437d9024c.jpg",
     "static/media/knights-of-ren_2048x1152.jpg": "/react-star-wars/static/media/knights-of-ren_2048x1152.95a29f94b33402381b30.jpg",
@@ -23,11 +23,11 @@
     "static/media/close-rectangle-f-svgrepo-com.svg": "/react-star-wars/static/media/close-rectangle-f-svgrepo-com.c0e3114f64da0e0ae9fd14cdc8b12f0c.svg",
     "static/media/left-arrow.svg": "/react-star-wars/static/media/left-arrow.6af99bef3bb5999dc2921785eda24cdd.svg",
     "main.86a23921.css.map": "/react-star-wars/static/css/main.86a23921.css.map",
-    "main.b2e3f662.js.map": "/react-star-wars/static/js/main.b2e3f662.js.map",
+    "main.6b991eb9.js.map": "/react-star-wars/static/js/main.6b991eb9.js.map",
     "787.6711493f.chunk.js.map": "/react-star-wars/static/js/787.6711493f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86a23921.css",
-    "static/js/main.b2e3f662.js"
+    "static/js/main.6b991eb9.js"
   ]
 }
