@@ -4,6 +4,7 @@ import { Img, Li, Ul } from "./styled";
 import { Link } from "react-router-dom";
 
 const PeopleList = ({ people }) => {
+
   return (
     <Ul>
       {people.map(({ id, name, img }) => (

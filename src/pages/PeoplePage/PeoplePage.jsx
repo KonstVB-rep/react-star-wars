@@ -29,6 +29,7 @@ const PeoplePage = ({ setErrorApi }) => {
         const img = getPeopleImage(id);
         return { id, name, img };
       });
+      console.log(peopleList)
       setPeople(peopleList);
       setPrevPage(res.previous);
       setNextPage(res.next);
@@ -40,7 +41,7 @@ const PeoplePage = ({ setErrorApi }) => {
   };
 
   useEffect(() => {
-    getResource(API_PEOPLE + SWAPI_PARAM_PAGE + queryPage);
+    getResource(API_PEOPLE + SWAPI_PARAM_PAGE + queryPage)
   }, []);
   return (
     <>

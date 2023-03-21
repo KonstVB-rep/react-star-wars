@@ -1,7 +1,6 @@
 export const getApiResource = async (url) => {
   try {
     const res = await fetch(url, {
-      mode: 'no-cors',
       method: "get",
       headers: {
         "Content-Type": "application/json"
