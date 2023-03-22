@@ -12,10 +12,10 @@ const PeopleNavigation = ({ currentPage, prevPage, nextPage, getResource }) => {
     <>
       <h1 className="page__title">People</h1>
       <Div>
-        <Link to={`/react-star-wars/people/?page=${currentPage - 1}`}>
+        <Link to={`/react-star-wars/peoples/?page=${currentPage - 1}`}>
           <UiButton text="Previous" onClick={prev} disabled={!prevPage} />
         </Link>
-        <Link to={`/react-star-wars/people/?page=${currentPage + 1}`}>
+        <Link to={`/react-star-wars/peoples/?page=${currentPage + 1}`}>
           <UiButton text="Next" onClick={next} disabled={!nextPage} />
         </Link>
       </Div>

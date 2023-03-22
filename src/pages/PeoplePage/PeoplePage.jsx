@@ -29,7 +29,6 @@ const PeoplePage = ({ setErrorApi }) => {
         const img = getPeopleImage(id);
         return { id, name, img };
       });
-      console.log(peopleList)
       setPeople(peopleList);
       setPrevPage(res.previous);
       setNextPage(res.next);

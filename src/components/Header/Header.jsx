@@ -34,8 +34,8 @@ const Header = () => {
           <NavLink to = "/react-star-wars/">HomePage</NavLink>
         </li>
         <li>
-          <NavLink to = "/react-star-wars/people/?page=1" strict = "false">
-            People
+          <NavLink to = "/react-star-wars/peoples/?page=1" strict = "false">
+            Peoples
           </NavLink>
         </li>
         <li>

@@ -16,8 +16,8 @@ const NavMobile = ({showMobileNav,setShowMobileNav}) => {
                 <NavLink to = "/react-star-wars/">HomePage</NavLink>
               </li>
               <li>
-                <NavLink to = "/react-star-wars/people/?page=1" strict = "false">
-                  People
+                <NavLink to = "/react-star-wars/peoples/?page=1" strict = "false">
+                  Peoples
                 </NavLink>
               </li>
               <li>
@@ -37,7 +37,7 @@ const NavMobile = ({showMobileNav,setShowMobileNav}) => {
               </li>
             </List>
           </Nav>
-          <button onClick = {() => setShowMobileNav(false)}>
+          <button onClick = {() => setShowMobileNav(false)} aria-label='close menu'>
             <svg width = "48" height = "48" viewBox = "0 0 48 48" fill = "none" xmlns = "http://www.w3.org/2000/svg">
               <rect width = "48" height = "48" fill = "white" fillOpacity = "0.01" />
               <path d = "M12 24L24 12L36 24" stroke = "black" strokeWidth = "4" strokeLinecap = "round"

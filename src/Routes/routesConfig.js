@@ -14,7 +14,7 @@ const routesConfig = [
   },
   {
     id: 2,
-    path: "/people",
+    path: "/peoples",
     element: <PeoplePage />,
   },
   {

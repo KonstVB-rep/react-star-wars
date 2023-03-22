@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 export const Img = styled.img`
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 250px;
+  width: 250px;
 `;
 
 export const ShadowImg = styled(Img)`

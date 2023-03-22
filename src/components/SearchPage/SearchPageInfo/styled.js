@@ -12,15 +12,6 @@ export const Ul = styled.ul`
   }
 `
 
-export const H2 = styled.h2`
-  padding: 20px 10px;
-  border-radius: var(--border-radius-10);
-  text-align: center;
-  background-color: rgba(73, 69, 69, 0.56);
-  font-size: 50px;
-  color: var(--color-white)
-`
-
 export const Li = styled.li`
   & a {
     display: inline-flex;

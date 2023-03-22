@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import { Img, ShadowImg, shadowImg } from "./styled";
+import { Img, ShadowImg } from "./styled";
 import loaderBlack from "./img/loader-black.svg";
 import loaderWhite from "./img/loader-white.svg";
 import loaderBlue from "./img/loader-blue.svg";

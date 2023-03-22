@@ -11,6 +11,7 @@ import PersonPhoto from "components/PersonPhoto";
 import PersonLinkBack from "components/PeoplePage/PersonLinkBack";
 import PersonFilms from "components/PeoplePage/PersonFilms/PersonFilms";
 import { useSelector } from "react-redux";
+import UiLoader from "../../components/Ui/UiLoading";
 
 const PersonPage = ({ setErrorApi }) => {
   const { id } = useParams();
@@ -53,7 +54,7 @@ const PersonPage = ({ setErrorApi }) => {
       <BoxContent>
         <InfoBox>
           <SpanPersonName className="person-name">{personName}</SpanPersonName>
-          {personInfo && (
+          {personInfo ? (
             <div className="person-info">
               <PersonPhoto
                 personPhoto={personPhoto}
@@ -69,7 +70,7 @@ const PersonPage = ({ setErrorApi }) => {
                 </>
               )}
             </div>
-          )}
+          ) : <UiLoader/>}
         </InfoBox>
       </BoxContent>
     </>

@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from "prop-types";
 import {Link} from "react-router-dom";
-import {H2, Li, Ul} from "./styled";
+import { Li, Ul} from "./styled";
+import UiLoader from "../../Ui/UiLoading";
 
 const SearchPageInfo = ({people}) => (
   <>
@@ -9,14 +10,14 @@ const SearchPageInfo = ({people}) => (
       <Ul>
         {people.map(({id, name, img}) =>
           <Li key = {id}>
-            <Link to = {`/people/${id}`}>
+            <Link to = {`/react-star-wars/people/${id}`}>
               <img src = {img} alt = {name} />
               <p>{name}</p>
             </Link>
           </Li>
         )
         }
-      </Ul> : <H2>No results</H2>}
+      </Ul> : <UiLoader/>}
   </>
 );
 
