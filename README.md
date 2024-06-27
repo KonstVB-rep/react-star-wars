@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
  
  </font>
 
- [Demo](https://konst1984.github.io/react-star-wars/).
+ [Demo](https://konstvb-rep.github.io/react-star-wars/).
 
  Used API: 
  - https://swapi.dev/api/
